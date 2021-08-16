@@ -20,14 +20,7 @@
     "declaration": true, // Generate corresponding .d.ts file
     "noUnusedLocals": true, // Report errors on unused locals
     "noUnusedParameters": true, // Report errors on unused parameters
-    "noFallthroughCasesInSwitch": true, // Report errors for fallthrough cases in switch statement
-    "paths": {
-      "@components/*": ["./components/*"],
-      "@api/*": ["./pages/api/*"],
-      "@pages/*": ["./pages/*"],
-      "@public/*": ["./public/*"],
-      "@styles/*": ["./styles/*"]
-    }
+    "noFallthroughCasesInSwitch": true // Report errors for fallthrough cases in switch statement
   },
   "exclude": ["node_modules", ".eslintrc.js"],
   "include": ["**/*.ts", "**/*.tsx", "next-env.d.ts", "next.config.js"]
